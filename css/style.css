@@ -1,0 +1,35 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: block;
+  padding: 3px;
+}
+
+nav a {
+  display: inline;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.main {
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 40%;
+}
+
+.main h1 {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
