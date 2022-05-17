@@ -1,33 +1,49 @@
 $font-stack: Helvetica, sans-serif
-$primary-color: #333
+$primary-color: #212121
 
 body
   font: 100% $font-stack
-  color: $primary-color
+  background: $primary-color
+  color: #ccc
+  margin: 0
+  padding: 0
 
 nav
-  ul
-    margin: 0
-    padding: 0
-    list-style: none
+  display: inline-flexbox
+  padding: 20px 20px 40px 20px
 
-  li
-    display: block
-    padding: 3px
+nav ul
+  margin: 20px
+  padding: 0
 
-  a
-    display: inline
-    padding: 6px 12px
-    text-decoration: none
+#home
+  display: inline-flex
+  float: left
+
+nav .list-items
+  display: inline-flex
+  list-style: none
+  justify-content: center
+
+nav .list-items li
+  margin: 10px
+  padding: 10px 15px 3px 3px
+
+main
+  display: -moz-inline-box
+  padding: 15px 15px 15px 15px
+  justify-items: center
 
 
-.main
-    display: inline
-    align-items: center
-    position: absolute
-    left: 40%
+main h1
+  display: inline
+  color: yellow
+  justify-content: center
+  font-size: 45px
 
-.main
-     h1
-        color: red
+@media only screen and (min-width: 768px) {
+  
+}
+
+
 
